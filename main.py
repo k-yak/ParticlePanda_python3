@@ -171,6 +171,7 @@ class ParticleLoadSaveLayout(Widget):
         self.load_particle_popup.content.userbutton.state = 'down'
 
         self.load_dir = 'user_effects'
+
         self._load_show_filenames([fn for fn in os.listdir(self.load_dir) if fn.endswith('.pex')])
 
     def show_load_popup(self):
